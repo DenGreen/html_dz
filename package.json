@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --open --mode development",
+    "start": "forever server.js",
     "build": "webpack --mode production",
     "lint": "eslint",
     "test": "jest",
