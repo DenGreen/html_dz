@@ -13,7 +13,7 @@
     "show:coverage": "live-server coverage/lcov-report",
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist",
-    "watch": "forever -w server.js"
+    "heroku-postbuild": "npm run build"
   },
   "engines": {
     "node": "11.x"
