@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <div data-widget="subscribe">
+    <form data-id="subscribe-form">
+    <input data-id="name" name="method" required>
+    <input data-id="id" name="id" >
+    <button>Записаться</button>
+    </form>
+  </div> -->
+    <div class="modal modal-add modal--none">
+      <span class="modal__title">Добавить тикет</span>
+      <form class="modal__form">
+        <span class="modal__brief-description">Краткое описание</span>
+        <input name="brief-description" class="modal__text-brief-description modal__text-brief-add" type="text">
+        <span class="modal__full-description">Полное описание</span>
+        <input name="full-description" class="modal__text-full-description modal__text-full-add" type="text">
+        <div class="modal__box">
+          <button class="modal__button-ok modal__button-ok-add">OK</button>
+          <button class="modal__button-cancel modal__button-cancel-add">Отмена</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="modal modal-redact modal--none">
+      <span class="modal__title">Редактировать тикет</span>
+      <form class="modal__form">
+        <span class="modal__brief-description">Краткое описание</span>
+        <input name="brief-description-redact" class="modal__text-brief-description modal__text-brief-redact" type="text">
+        <span class="modal__full-description">Полное описание</span>
+        <input name="full-description" class="modal__text-full-description modal__text-full-redact" type="text">
+        <div class="modal__box">
+          <button class="modal__button-ok modal__button-ok-redact">OK</button>
+          <button class="modal__button-cancel modal__button-cancel-redact">Отмена</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="modal modal-delete modal--none">
+      <span class="modal__title">Удалить тикет</span>
+      <form class="modal__form">
+        <span class="modal__brief-description">Вы уверены, что хотите удалить тикет? Это дествие необратимо.</span>
+        <div class="modal__box">
+          <button class="modal__button-ok modal__button-ok-delete">OK</button>
+          <button class="modal__button-cancel modal__button-cancel-delete">Отмена</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="task-box">
+      <div class="task-box__btn">Добавить тикет</div>
+      <ul class="task-box__list">
+      </ul>
+    </div>
+  </body>
+</html>
