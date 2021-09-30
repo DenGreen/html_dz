@@ -1,4 +1,4 @@
-const server = "http://localhost:7070/";
+const server = "https://http-dz.herokuapp.com/";
 const taskBoxList = document.querySelector(".task-box__list");
 const taskBoxBtn = document.querySelector(".task-box__btn");
 const modalAdd = document.querySelector(".modal-add");
